@@ -7,7 +7,7 @@ from napalm.base.test import conftest as parent_conftest
 
 from napalm.base.test.double import BaseTestDouble
 
-from napalm.sros import sros
+from napalm_sros import sros
 
 
 @pytest.fixture(scope="class")

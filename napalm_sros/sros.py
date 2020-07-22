@@ -46,8 +46,8 @@ from ncclient import manager
 from ncclient.xml_ import to_ele
 
 # import local modules
-from napalm.sros.utils.parse_output_to_dict import parse_with_textfsm
-from napalm.sros.nc_filters import *
+from napalm_sros.utils.parse_output_to_dict import parse_with_textfsm
+from napalm_sros.nc_filters import *
 
 
 class NokiaSROSDriver(NetworkDriver):
@@ -2179,7 +2179,7 @@ class NokiaSROSDriver(NetworkDriver):
                     "interface": source_identifier
                     if len(temp_list) is 0
                     else temp_list[0] + ":" + temp_list[1],
-                    "vlan": -1 if len(temp_list) is 0 else convert(int, temp_list[2]),
+                    "vlan": -1 if len(temp_list) == 0 else convert(int, temp_list[2]),
                     "static": static,
                     "active": False,
                     "moves": -1,

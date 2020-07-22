@@ -15,7 +15,7 @@
 import unittest
 
 from lxml import etree
-from napalm.sros import NokiaSROSDriver
+from napalm_sros.sros import NokiaSROSDriver
 from napalm.base.test.base import TestConfigNetworkDriver, TestGettersNetworkDriver
 
 
