@@ -1,6 +1,6 @@
 ## Installation Steps
 
-4) To enable NETCONF on SR OS, establish SSH connection with SR OS and follow the below steps:
+1) To enable NETCONF on SR OS, establish SSH connection with SR OS and follow the below steps:
     - Ensure model-driven is mode enabled
          ```
        A:vsim10# configure system management-interface configuration-mode model-driven
@@ -51,9 +51,9 @@
             }
         }
        ``` 
-1) Install napalm, by using command `pip install napalm`  
+2) Install napalm, by using command `pip install napalm`  
 
-2) From [NAPALM Automation Community](https://github.com/napalm-automation-community/napalm-sros) clone the github repository onto your local computer
+3) From [NOKIA NAPALM REPO](https://github.com/nokia/napalm-SROS-driver/tree/develop) clone the github repository onto your local computer
     ```
    git clone https://github.com/napalm-automation-community/napalm-sros
    cd napalm-sros
@@ -62,7 +62,7 @@
 
    ``` 
    
-3) Run a script to get the results.
+4) Run a script to get the results.
    ##### Usage Example
     ```
     from napalm import get_network_driver

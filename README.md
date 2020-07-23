@@ -10,12 +10,12 @@ NAPALM integration is validated with a minimum of Nokia Service Router Operating
 
 
 #### **Documentation**
-1) Please read the installation instruction in [INSTALL](https://github.com/ashah26/napalm-SROS-driver/blob/develop/Install.md)
+1) Please read the installation instruction in [INSTALL](https://github.com/nokia/napalm-SROS-driver/blob/develop/Install.md)
 2) The main files included for Nokia SR OS driver are:
      3) napalm_sros/sros.py: Overridden NAPALM methods to get the expected output from SR OS
      4) napalm_sros/nc_filters.py: Filters defined to get data from SR OS using a NETCONF connection
-5) Mapping of various parameters of NAPALM output to Nokia SR OS can be found in this [DOCUMENT](https://github.com/ashah26/napalm-SROS-driver/blob/develop/Summary_of_Methods.pdf)
-6) For testing, please refer to [TEST Document](https://github.com/ashah26/napalm-SROS-driver/blob/develop/README_TEST.md)
+5) Mapping of various parameters of NAPALM output to Nokia SR OS can be found in this [DOCUMENT](https://github.com/nokia/napalm-SROS-driver/blob/develop/Summary_of_Methods.pdf)
+6) For testing, please refer to [TEST Document](https://github.com/nokia/napalm-SROS-driver/blob/develop/README_TEST.md)
 
 #### **Components Version**
 1) Python - 3.6
