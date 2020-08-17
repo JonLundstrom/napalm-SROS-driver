@@ -53,13 +53,9 @@
        ``` 
 2) Install napalm, by using command `pip install napalm`  
 
-3) From [NOKIA NAPALM REPO](https://github.com/nokia/napalm-SROS-driver/tree/develop) clone the github repository onto your local computer
+3) From [NOKIA NAPALM REPO](https://github.com/nokia/napalm-SROS-driver/) install the repository on your local computer
     ```
-   git clone https://github.com/napalm-automation-community/napalm-sros
-   cd napalm-sros
-   python setup.py build
-   python setup.py install
-
+   pip install https://github.com/nokia/napalm-SROS-driver/archive/master.zip
    ``` 
    
 4) Run a script to get the results.
