@@ -26,3 +26,6 @@ NAPALM integration is validated with a minimum of Nokia Service Router Operating
 ##### **Note**
 This version of the driver leverages Nokia’s defined YANG models for configuration and state trees for the SROS platform. While SROS also support limited configuration and state retrieval using openconfig standard models, the NAPALM driver does not support configuration or state retrieval of openconfig data models.
 
+#### License
+This project is licensed under the Apache-2.0 license - see the [license](https://github.com/nokia/napalm-SROS-driver/blob/master/License.md)
+
