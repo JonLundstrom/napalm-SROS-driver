@@ -66,15 +66,15 @@ class NokiaSROSDriver(NetworkDriver):
         self.fmt = None
         self.locked = False
 
-        # locking variables
-        self.lock_disable = optional_args.get("lock_disable", False)
-        self.session_config_lock = optional_args.get("config_lock", False)
-
         if optional_args is None:
             optional_args = {}
         self.port = optional_args.get("port", 830)
         self.conn_ssh = optional_args.get("ssh_conn", None)
         self.ssh_channel = optional_args.get("ssh_channel", None)
+
+        # locking variables
+        self.lock_disable = optional_args.get("lock_disable", False)
+        self.session_config_lock = optional_args.get("config_lock", False)
 
         # namespace map
         self.nsmap = {
